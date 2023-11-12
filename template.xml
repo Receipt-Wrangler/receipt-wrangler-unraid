@@ -4,6 +4,7 @@
   <Repository>noah231515/receipt-wrangler:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/noah231515/receipt-wrangler/general</Registry>
   <Network>bridge</Network>
+  <Overview>Receipt Wrangler is a self hosted receipt splitter, and manager solution.</Overview>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -11,17 +12,15 @@
   <Project>https://github.com/Receipt-Wrangler</Project>
   <Overview/>
   <Category>Productivity:</Category>
-  <WebUI>80</WebUI>
-  <TemplateURL/>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/Receipt-Wrangler/receipt-wrangler-unraid/main/template.xml</TemplateURL>
   <Icon>https://avatars.githubusercontent.com/u/141039354?s=400&amp;amp;u=614387191a483eef308dbb696ce76fc74f6878dc&amp;amp;v=4</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1699559044</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires>This application may require an external database to be ran, but an internal SQLITE database is supported.&#xD;
-Please read the documentation at https://github.com/Receipt-Wrangler to set up the configuration files, as well as the environment variables.</Requires>
+  <Requires>This application may require an external database to be ran, but an internal SQLITE database is supported.&#xD; Please read the documentation at https://github.com/Receipt-Wrangler to set up the configuration files, as well as the environment variables.</Requires>
   <Config Name="DB_HOST" Target="DB_HOST" Default="" Mode="" Description="Database host" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="DB_USER" Target="DB_USER" Default="" Mode="" Description="DB_USER" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="" Mode="" Description="Database password" Type="Variable" Display="always" Required="false" Mask="true"/>
