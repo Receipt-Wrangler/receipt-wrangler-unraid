@@ -10,7 +10,6 @@
   <Privileged>false</Privileged>
   <Support>reddit.com/r/receiptwrangler</Support>
   <Project>https://github.com/Receipt-Wrangler</Project>
-  <Overview/>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Receipt-Wrangler/receipt-wrangler-unraid/main/template.xml</TemplateURL>
