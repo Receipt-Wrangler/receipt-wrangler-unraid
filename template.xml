@@ -1,14 +1,23 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>ReceiptWrangler</Name>
+  <Name>Receipt-Wrangler</Name>
   <Repository>noah231515/receipt-wrangler:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/noah231515/receipt-wrangler/general</Registry>
   <Network>bridge</Network>
-  <Overview>Receipt Wrangler is a self hosted receipt splitter, and manager solution.</Overview>
+  <Overview>
+    Receipt Wrangler is your easy-to-use, self-hosted receipt management solution. Simplify your expenses and take control of your financial data with these powerful features:
+
+    * Effortless Receipt Creation: Quickly create receipts with the help of OCR/AI image scanning.
+    * Smart Categorization: Organize receipts for easy filtering.
+    * Collaborative Tracking: Share receipts and track expenses among multiple users.
+    * Email Integration: Seamlessly upload receipts directly from your email, web app, and mobile app (coming soon).
+
+    Follow the installation guide at https://receiptwrangler.io/docs/category/getting-started to get started.
+  </Overview>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>reddit.com/r/receiptwrangler</Support>
+  <Support>https://reddit.com/r/receiptwrangler</Support>
   <Project>https://github.com/Receipt-Wrangler</Project>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
