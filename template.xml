@@ -33,6 +33,8 @@
   <Config Name="Sqlite path" Target="/app/receipt-wrangler-api/sqlite" Default="" Mode="rw,shared" Description="Directory to store sqlite database" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Logs path" Target="/app/receipt-wrangler-api/logs" Default="" Mode="rw" Description="Directory to store application logs&#13;&#10;" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Data path" Target="/app/receipt-wrangler-api/data" Default="" Mode="rw" Description="Directory to store application images" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="ENCRYPTION_KEY" Target="ENCRYPTION_KEY" Default="" Mode="" Description="Encryption key for encrypting sensitive data" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="SECRET_KEY" Target="SECRET_KEY" Default="" Mode="" Description="Secret key used for validating jwts" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="DB_HOST" Target="DB_HOST" Default="" Mode="" Description="Database host" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="DB_PORT" Target="DB_PORT" Default="0" Mode="" Description="Database port" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="DB_USER" Target="DB_USER" Default="" Mode="" Description="Database user" Type="Variable" Display="always" Required="false" Mask="false"/>
