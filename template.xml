@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Receipt-Wrangler</Name>
-  <Repository>noah231515/receipt-wrangler:{{TAG}}</Repository>
+  <Repository>noah231515/receipt-wrangler:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/noah231515/receipt-wrangler/general</Registry>
   <Network>bridge</Network>
   <Overview>
@@ -29,13 +29,6 @@
   <DonateText/>
   <DonateLink/>
   <Requires>This application may require an external database to be ran, but an internal SQLITE database is supported.&#xD; Please read the documentation at https://github.com/Receipt-Wrangler to set up the required configuration file.</Requires>
-
-  <!-- Add version dropdown -->
-  <Config Name="Version" Target="TAG" Default="latest" Mode="" Description="Container version" Type="Variable" Display="always" Required="true" Mask="false">
-    <Value>latest</Value>
-    <Value>v5.4.1</Value>
-  </Config>
-
   <Config Name="WebUI Port" Target="80" Default="" Mode="tcp" Description="Port for web ui&#13;&#10;" Type="Port" Display="always" Required="false" Mask="false">9080</Config>
   <Config Name="Sqlite path" Target="/app/receipt-wrangler-api/sqlite" Default="" Mode="rw,shared" Description="Directory to store sqlite database" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Logs path" Target="/app/receipt-wrangler-api/logs" Default="" Mode="rw" Description="Directory to store application logs&#13;&#10;" Type="Path" Display="always" Required="false" Mask="false"/>
