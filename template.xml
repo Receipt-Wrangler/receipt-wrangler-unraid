@@ -42,4 +42,8 @@
   <Config Name="DB_NAME" Target="DB_NAME" Default="" Mode="" Description="Name of database" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="DB_ENGINE" Target="DB_ENGINE" Default="" Mode="" Description="Sets which database to use" Type="Variable" Display="always" Required="true" Mask="false">sqlite</Config>
   <Config Name="DB_FILENAME" Target="DB_FILENAME" Default="" Mode="" Description="Name of database if using sqlite" Type="Variable" Display="always" Required="false" Mask="false">test.db</Config>
+  <Config Name="REDIS_HOST" Target="REDIS_HOST" Default="" Mode="" Description="Redis host" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="REDIS_PORT" Target="REDIS_PORT" Default="" Mode="" Description="Redis port" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="REDIS_USERNAME" Target="REDIS_USERNAME" Default="" Mode="" Description="Redis username" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="REDIS_PASSWORD" Target="REDIS_PASSWORD" Default="" Mode="" Description="Redis password" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 </Container>
